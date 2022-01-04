@@ -4,22 +4,21 @@
 }
 
 body {
-    /* background-image: url("./11b2c0d0d3618b138dca11b32e40999d.png"); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
 #content {
-
     background-color: #333;
     justify-content: center;
     margin: 0 auto;
     width: 60%;
     padding: 4vh;
     height: 40vh;
-    margin-top: 26%;
+    margin-top: 20%;
     box-shadow: 3px 4px 5px #333;
+    border-radius: 20px;
 }
 
 #name,
