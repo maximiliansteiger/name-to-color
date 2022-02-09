@@ -8,17 +8,19 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+.outerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-#content {
+.content {
     background-color: #333;
     justify-content: center;
-    margin: 0 auto;
-    width: 60%;
-    padding: 4vh;
-    height: 40vh;
-    margin-top: 20%;
+    padding: 6vh;
     box-shadow: 3px 4px 5px #333;
-    border-radius: 20px;
+    border-radius: 20px; 
+    margin-top: 10%;
 }
 
 #name,
@@ -39,11 +41,11 @@ body {
 }
 
 .colorField {
-    width: 25%;
+    /* width: 25%; */
     margin: 4vh 2vh 0vh -4vh;
 }
 
 .colorCopy {
-    width: 5%;
+    /* width: 5%; */
     margin: 0vh 4vh 0vh 0vh;
 }
